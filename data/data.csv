@@ -1,6 +1,7 @@
 title;description;url;image;completed
 Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://mrtempz-to-do-list.streamlit.app;1.png;Yes
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://mrtempz-my-portfolio.streamlit.app;2.png;Yes
+Company Website;A website built entirely in Python to present a company and its key members.;https://mrtempz-company-website.streamlit.app;company_website.png;Yes
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://pythonhow.com;3.png;No
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png;No
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png;No

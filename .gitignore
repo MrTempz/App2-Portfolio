@@ -2,3 +2,4 @@ venv
 .venv
 tester.ipynb
 email_credentials.py
+__pycache__/
