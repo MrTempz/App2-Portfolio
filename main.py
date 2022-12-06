@@ -30,18 +30,11 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 df = pd.read_csv(path.join(data_dir, 'data.csv'), sep=';')
 print(df)
 
-with col3:
-    for index,row in df[::2].iterrows():
-#        if not index%2:
-        print(f'{index}, {row["title"]}')
-        st.header(row['title'])
-        st.write(f'{row["description"]}. To see this app, click [here]({row["url"]})')
-        st.image(path.join(data_dir, row['image']))
-
-with col4:
-    for index,row in df[1::2].iterrows():
-#        if index%2:
-        print(f'{index}, {row["title"]}')
-        st.header(row['title'])
-        st.write(f'{row["description"]}. To see this app, click [here]({row["url"]})')
-        st.image(path.join(data_dir, row['image']))
+for start_point, col in enumerate([col3, col4]):
+    with col:
+        for index,row in df[start_point::2].iterrows():
+            if row['completed'] == 'Yes':
+                print(f'{index}, {row["title"]}')
+                st.header(row['title'])
+                st.write(f'{row["description"]}. To see this app, click [here]({row["url"]})')
+                st.image(path.join(data_dir, row['image']))
