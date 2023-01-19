@@ -3,7 +3,7 @@ Todo App;A distraction-free web app to help you focus on creating and completing
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://mrtempz-my-portfolio.streamlit.app;2.png;Yes
 Company Website;A website built entirely in Python to present a company and its key members.;https://mrtempz-app2-e-company-website-main-thc0ln.streamlit.app;2_E.png;Yes
 PDF Notebook;A web app that generates PDF notebook of multiple pages given some predefined guidelines.;https://mrtempz-app3-notebook-generator-main-cph2pi.streamlit.app;3.png;Yes
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://https://mrtempz-app4-invoice-generator-main-uv7umi.streamlit.app;4.png;Yes
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://mrtempz-app4-invoice-generator-main-uv7umi.streamlit.app;4.png;Yes
 Email News Site;A website that gets data from a news API and sends them daily via email to subscribers.;https://mrtempz-app5-email-news-main-foqmor.streamlit.app;5.png;Yes
 Astronomy Picture of the Day;A website which shows NASA APOD with brief description.;https://mrtempz-nasa-apod.streamlit.app;5_E.png;Yes
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png;No
